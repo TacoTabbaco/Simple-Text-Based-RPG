@@ -13,6 +13,14 @@ You'll have to select a mode of difficulty of the bot in which you'll play again
 for Easy, Normal and Hard difficulties respectively.
 A stat line will show up and you'll have to decide whether to attack the monster (A) or heal your hp (H).
 
+# 🧩 Improvements I could make
+* The getPotion condition is read without the condition of option H, ln116 (why did I write it like that???)
+* The monster doesn't have a condition for how many potions he can have, ln133
+* I still apply the C way of initializing variables (classes and structs). Should have used constructors inside the class calling
+* Random function is still the random function applied in C language.
+* New random function can be implemented using <random>
+
 # 💡 Key take aways in this project
 This small program helped me understand better the concepts of OOP and its use cases.
-Also improved my hability to move away from the standard C programming into a more C++ view of things
+Also improved my hability to move away from the standard C programming into a more C++ view of things.
+I should apply constructors more instead of manual initialization of structures.
