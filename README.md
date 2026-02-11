@@ -14,11 +14,13 @@ for Easy, Normal and Hard difficulties respectively.
 A stat line will show up and you'll have to decide whether to attack the monster (A) or heal your hp (H).
 
 # 🧩 Improvements I could make
-* The getPotion condition is read without the condition of option H, ln116 (why did I write it like that???)
-* The monster doesn't have a condition for how many potions he can have, ln133
-* I still apply the C way of initializing variables (classes and structs). Should have used constructors inside the class calling
-* Random function is still the random function applied in C language.
-* New random function can be implemented using <random>
+* The getPotion condition is read without the condition of option H, ln116 (why did I write it like that???) ✅
+* The monster doesn't have a condition for how many potions he can have, ln133 ✅
+* I still apply the C way of initializing variables (classes and structs). Should have used constructors inside the class calling ✅
+* Random function is still the random function applied in C language. ✅
+* New random function can be implemented using <random> ✅
+  
+As of 11/02/2026 (eleventh of february 2026) I have created a new file with the necessary corrections and improvements.
 
 # 💡 Key take aways in this project
 This small program helped me understand better the concepts of OOP and its use cases.
